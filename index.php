@@ -30,9 +30,6 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
   <script src="./js/jquery.skitter.min.js"></script>
-  <script src="js/recaptcha.js"></script>
-  <script src="Glider/glider.js"></script>
-  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
   <meta name="theme-color" content="#fafafa">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NDPC2K45XQ"></script>
@@ -47,11 +44,7 @@
     gtag('config', 'G-NDPC2K45XQ');
   </script>
 </head>
-
 <body>
-
-  <!-- Add your site or application content here -->
-  <!-- Messenger plugin del chat Code -->
   <div id="fb-root"></div>
   <script>
     window.fbAsyncInit = function() {
@@ -60,7 +53,6 @@
         version: 'v10.0'
       });
     };
-
     (function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
@@ -70,7 +62,6 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
-
   <!-- Your plugin del chat code -->
   <div class="fb-customerchat" attribution="setup_tool" page_id="2061014224171852">
   </div>
@@ -99,7 +90,6 @@
       </div>
     </div>
   </header>
-
   <main>
     <section class="nosotros" id="nosotros">
       <h1 class="slide">Nosotros<span class="divider"></span></h1>
@@ -112,7 +102,7 @@
           <ul>
             <li>
               <a href="#cut">
-                <img src="img/IMG_20200617_204256351.jpg" class="cut" />
+                <img src="img/IMG_20200617_204256351.jpg" class="cut" loading="lazy"/>
               </a>
               <div class="label_text">
                 <p class="slide-text">octavaciones</p>
@@ -120,7 +110,7 @@
             </li>
             <li>
               <a href="#swapBlocks">
-                <img src="img/IMG_20210206_131433438.jpg" class="swapBlocks" />
+                <img src="img/IMG_20210206_131433438.jpg" class="swapBlocks" loading="lazy"/>
               </a>
               <div class="label_text">
                 <p class="slide-text">Pintura</p>
@@ -128,7 +118,7 @@
             </li>
             <li>
               <a href="#swapBarsBack">
-                <img src="img/pastillas3.jpg" class="swapBlocks" />
+                <img src="img/pastillas3.jpg" class="cut" loading="lazy"/>
               </a>
               <div class="label_text">
                 <p class="slide-text">Instalación de pastillas</p>
@@ -136,7 +126,7 @@
             </li>
             <li>
               <a href="#swapBlocks">
-                <img src="img/guitarAmp.jpg" class="swapBlocks" />
+                <img src="img/guitarAmp.jpg" class="swapBlocks"  loading="lazy"/>
               </a>
               <div class="label_text">
                 <p class="slide-text">Reparación de amplificadores</p>
@@ -144,9 +134,6 @@
             </li>
           </ul>
         </div>
-
-
-
         <div class="nosotros-box we-box1">
           <article>
             <div class="circle"><i class="fas fa-crosshairs"></i></div>
@@ -185,11 +172,10 @@
       </div>
     </section>
     <section class="servicios" id="servicios">
-
       <h1 class="slide">Servicios<span class="divider"></span></h1>
       <div class="contenedor-servicios">
         <div class="servicio-box">
-          <div class="img-servicio"><img src="img/calibracion.jpg" alt="">
+          <div class="img-servicio"><img src="img/calibracion.jpg" alt="calibracion" loading="lazy">
             <div class="centrar-texto">
               <h3>Mantenimiento general</h3>
             </div>
@@ -199,9 +185,8 @@
             <input type="submit" value="Ver detalles" id="boton-1">
           </div>
         </div>
-
         <div class="servicio-box">
-          <div class="img-servicio"><img src="img/pastillas.jpg" alt="">
+          <div class="img-servicio"><img src="img/pastillas.jpg" alt="pastillas" loading="lazy">
             <div class="centrar-texto">
               <h3>Instalación de pastillas</h3>
             </div>
@@ -211,9 +196,8 @@
             <input type="submit" value="Ver detalles" id="boton-2">
           </div>
         </div>
-
         <div class="servicio-box">
-          <div class="img-servicio"><img src="img/apantallado3.jpg" alt="">
+          <div class="img-servicio"><img src="img/apantallado3.jpg" alt="apantallado" loading="lazy">
             <div class="centrar-texto">
               <h3>Apantallado</h3>
             </div>
@@ -223,9 +207,8 @@
             <input type="submit" value="Ver detalles" id="boton-3">
           </div>
         </div>
-
         <div class="servicio-box">
-          <div class="img-servicio"><img src="img/potenciometros.jpg" alt="">
+          <div class="img-servicio"><img src="img/potenciometros.jpg" alt="potenciometros" loading="lazy">
             <div class="centrar-texto">
               <h3>Cambio de potenciometros</h3>
             </div>
@@ -236,7 +219,7 @@
           </div>
         </div>
         <div class="servicio-box">
-          <div class="img-servicio"><img src="img/trastes.jpg" alt="">
+          <div class="img-servicio"><img src="img/trastes.jpg" alt="trastes" loading="lazy">
             <div class="centrar-texto">
               <h3>Servicio de trastes</h3>
             </div>
@@ -247,7 +230,7 @@
           </div>
         </div>
         <div class="servicio-box">
-          <div class="img-servicio"><img src="img/killswitch.jpg" alt="">
+          <div class="img-servicio"><img src="img/killswitch.jpg" alt="killswitch" loading="lazy">
             <div class="centrar-texto">
               <h3>Instalación de killswitch</h3>
             </div>
@@ -258,7 +241,7 @@
           </div>
         </div>
         <div class="servicio-box">
-          <div class="img-servicio"><img src="img/capacitor.jpeg" alt="">
+          <div class="img-servicio"><img src="img/capacitor.jpeg" alt="capacitor" loading="lazy">
             <div class="centrar-texto">
               <h3>Instalación de capacitores</h3>
             </div>
@@ -269,7 +252,7 @@
           </div>
         </div>
         <div class="servicio-box">
-          <div class="img-servicio"><img src="img/nut.jpg" alt="">
+          <div class="img-servicio"><img src="img/nut.jpg" alt="nut" loading="lazy">
             <div class="centrar-texto">
               <h3>Instalación de nut</h3>
             </div>
@@ -280,7 +263,7 @@
           </div>
         </div>
         <div class="servicio-box">
-          <div class="img-servicio"><img src="img/emg.jpg" alt="">
+          <div class="img-servicio"><img src="img/emg.jpg" alt="EMG" loading="lazy">
             <div class="centrar-texto">
               <h3>Instalación de EMG</h3>
             </div>
@@ -291,7 +274,7 @@
           </div>
         </div>
         <div class="servicio-box">
-          <div class="img-servicio"><img src="img/split.jpg" alt="">
+          <div class="img-servicio"><img src="img/split.jpg" alt="splitcoil" loading="lazy">
             <div class="centrar-texto">
               <h3>Instalación de split coil</h3>
             </div>
@@ -302,7 +285,7 @@
           </div>
         </div>
         <div class="servicio-box">
-          <div class="img-servicio"><img src="img/switch.jpg" alt="">
+          <div class="img-servicio"><img src="img/switch.jpg" alt="switch" loading="lazy">
             <div class="centrar-texto">
               <h3>Cambio de switch</h3>
             </div>
@@ -313,7 +296,7 @@
           </div>
         </div>
         <div class="servicio-box">
-          <div class="img-servicio"><img src="img/pintura1.jpg" alt="">
+          <div class="img-servicio"><img src="img/pintura1.jpg" alt="pintura" loading="lazy">
             <div class="centrar-texto">
               <h3>Pintura</h3>
             </div>
@@ -323,9 +306,8 @@
             <input type="submit" value="Ver detalles" id="boton-12">
           </div>
         </div>
-
         <div class="servicio-box">
-          <div class="img-servicio"><img src="img/pedalBoss.JPG" alt="">
+          <div class="img-servicio"><img src="img/pedalBoss.JPG" alt="pedalBoss" loading="lazy">
             <div class="centrar-texto">
               <h3>Modificación y reparación de pedales</h3>
             </div>
@@ -336,9 +318,8 @@
             <input type="submit" value="Ver detalles" id="boton-13">
           </div>
         </div>
-
         <div class="servicio-box">
-          <div class="img-servicio"><img src="img/guitarAmp.jpg" alt="">
+          <div class="img-servicio"><img src="img/guitarAmp.jpg" alt="guitarAmp" loading="lazy">
             <div class="centrar-texto">
               <h3>Reparación de amplificadores</h3>
             </div>
@@ -349,11 +330,8 @@
             <input type="submit" value="Ver detalles" id="boton-14">
           </div>
         </div>
-
-
       </div>
     </section>
-
   </main>
   <div class="overlay">
     <div class="popup">

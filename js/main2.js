@@ -216,7 +216,7 @@ let getElement = $(this).attr("href");
               "Reemplazo de trastes despegados en mástil Parker: $300 c/u",
             ];
             popupTituloServicio.innerHTML = "Servicio de Trastes";
-            img.setAttribute("src", "./img/trastesPopup.JPG");
+            img.setAttribute("src", "./img/trastesPopup.jpg");
             popupImg.appendChild(img);
             descripcion.innerHTML =
               "Los trastes al ser elementos que están en constante fricción con las cuerdas eventualmente se desgastarán, de forma que causarán problemas como el trasteo, " +
